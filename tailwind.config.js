@@ -14,7 +14,13 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                bebas: ['Bebas Neue', 'sans-serif'],
+                roboto: ['Roboto', 'sans-serif'],
             },
+            colors:{
+                background: '#141414',
+                primary: '#FF914D',
+            }
         },
     },
 
